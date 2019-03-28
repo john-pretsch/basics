@@ -12,6 +12,9 @@ switch($t){
     case 'll':
         include 'linked_list.php';
         break;
+    case 'bintree':
+        include 'binary_tree.php';
+        break;
     default:
         echo 'Nothing to do';
 }
